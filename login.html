@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="loginBox">
+        <img src="user.png" class="user">
+        <h2>Login</h2>
+        <form action="home.html" method="GET">
+            <p>Email Address</p>
+            <input type="text" id="email" placeholder="Email" required>
+            <p>Password</p>
+            <input type="password" id="pw" placeholder="Password" required>
+            <a href="home.html">
+            <input id= "login_btn" type="submit" value="Login" onclick="login()">
+            <p>Belum punya akun? <a href="register.html">Register disini</a></p>
+        </form>
+    </div>
+</body>
+
+<script type="text/javascript" src="run.js"></script>
+
+</html>
